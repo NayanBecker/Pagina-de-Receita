@@ -1,12 +1,17 @@
 body{
     background-image: url(imgs/Página\ de\ receita.jpg);
     background-size: cover;
+    font-family: "Alice", serif;
+    line-height:150%;
 }
 .recipe_page{
     box-sizing: border-box;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
-    margin: 48px auto;
-
+    margin: 48px auto;   
+}
+h1{
+    line-height: 140%;
+    font-size: 40px;
 }
