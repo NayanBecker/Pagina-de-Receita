@@ -1,10 +1,11 @@
 body{
-    background-image: url(imgs/Página\ de\ receita.jpg);
+    background-image: url(imgs/bg-image.png);
     background-size: cover;
     font-family: "Alice", serif;
     line-height:150%;
     font-size: 16px;
     color: #573A37;
+    background-color: #573824;
 }
 .recipe_page{
     box-sizing: border-box;
@@ -12,10 +13,12 @@ body{
     padding: 24px;
     background-color: #F0E8C2;
     margin: 48px auto;
-    
+    border-radius: 10px;
+
 }
 main{
-    padding: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .infos{
     margin-bottom: 12px;
@@ -26,10 +29,19 @@ h1{
     line-height: 140%;
     font-size: 40px;
     color: #291B1A;
+    margin-bottom: 4px;
 
 }
 h2{
     font-size: 24px;
     color: #291B1A;
-
+    margin-bottom: 4px;
+}
+footer{
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+footer img{
+    vertical-align: middle;
 }
