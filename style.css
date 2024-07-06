@@ -3,15 +3,33 @@ body{
     background-size: cover;
     font-family: "Alice", serif;
     line-height:150%;
+    font-size: 16px;
+    color: #573A37;
 }
 .recipe_page{
     box-sizing: border-box;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
-    margin: 48px auto;   
+    margin: 48px auto;
+    
 }
+main{
+    padding: 24px;
+}
+.infos{
+    margin-bottom: 12px;
+}
+
 h1{
+    margin-top: 0px ;
     line-height: 140%;
     font-size: 40px;
+    color: #291B1A;
+
+}
+h2{
+    font-size: 24px;
+    color: #291B1A;
+
 }
